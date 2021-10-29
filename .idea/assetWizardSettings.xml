@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\PROGRA~1\KMSpico\temp\baseline_add_circle_24.xml" />
+                                                <entry key="imagePath" value="C:\PROGRA~1\KMSpico\temp\baseline_add_24.xml" />
                                                 <entry key="opacityPercent" value="60" />
                                                 <entry key="paddingPercent" value="5" />
                                                 <entry key="trimmed" value="true" />
@@ -38,7 +38,21 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/add_circle/baseline_add_circle_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/add/baseline_add_24.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="D:\ic_Shopping.png" />
+                                                <entry key="opacityPercent" value="60" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -70,7 +84,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_plus" />
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="D:\ic_Shopping.png" />
+                                      <entry key="outputName" value="ic_shoppingitems" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -306,6 +322,11 @@
                 </map>
               </option>
             </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState />
           </value>
         </entry>
       </map>

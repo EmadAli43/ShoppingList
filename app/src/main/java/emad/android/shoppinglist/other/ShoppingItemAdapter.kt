@@ -22,7 +22,7 @@ class ShoppingItemAdapter(
         val curShoppingItem = items[position]
 
         holder.itemView.tvName.text = curShoppingItem.name
-        holder.itemView.tvAmout.text = "${curShoppingItem.amount}"
+        holder.itemView.tvAmount.text = "${curShoppingItem.amount}"
 
         holder.itemView.ivDelete.setOnClickListener {
             viewModel.delete(curShoppingItem)

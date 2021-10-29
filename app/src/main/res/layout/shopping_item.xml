@@ -10,16 +10,16 @@
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:hint="@string/name"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvAmout"
+        android:id="@+id/tvAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:hint="@string/amount"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +31,8 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/ic_delete"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        android:contentDescription="@string/delete" />
 
     <ImageView
         android:id="@+id/ivMinus"
@@ -40,7 +41,8 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/ic_minus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAmout" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAmount"
+        android:contentDescription="@string/remove" />
 
     <ImageView
         android:id="@+id/ivPlus"
@@ -50,5 +52,21 @@
         android:layout_marginEnd="16dp"
         android:src="@drawable/ic_plus"
         app:layout_constraintEnd_toStartOf="@+id/ivMinus"
-        app:layout_constraintTop_toBottomOf="@+id/tvAmout" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAmount"
+        android:contentDescription="@string/add" />
+
+    <ImageView
+        android:id="@+id/iv_ShoppingItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_shoppingitems"
+        android:contentDescription="@string/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
